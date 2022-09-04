@@ -25,7 +25,7 @@ body {
 
 a:visited {
   /* visited link */
-  color: var(--visited-link);
+  color: white(--visited-link);
 }
 
 a:hover,
@@ -111,12 +111,13 @@ button:focus {
 
 .navigation-list {
   list-style-type: none;
+  float: left;
 }
 
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
-  float: right;
+  float: left;
 }
 
 .grid {
