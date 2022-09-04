@@ -2,8 +2,8 @@
   --primary-color: #357b70;
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
-  --visited-link: #05676e;
-  --active-link: #489c79;
+  --visited-link: #edc655;
+  --active-link: #9c4848;
   --primary-button: #357b70;
   --secondary-button: #e0b354;
   --secondary-button-text: #2b2b2b;
@@ -37,7 +37,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: white(--active-link);
+  color: #9c4848(--active-link);
 }
 
 button {
