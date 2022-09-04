@@ -16,6 +16,7 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 10px;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 
 a:visited {
   /* visited link */
-  color: white(--visited-link);
+  color: #edc655(--visited-link);
 }
 
 a:hover,
@@ -102,22 +103,30 @@ button:focus {
 
 .page-header__item {
   flex: 0 1 200px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
+  margin: 10px;
+  padding: 10px;
 }
 
 .navigation-list {
   list-style-type: none;
-  float: left;
+  float: right;
+  margin: 10px;
+  padding: 10px;
 }
 
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
-  float: left;
+  margin-right: 15px;
+  float: right;
+  padding: 10px;
 }
 
 .grid {
@@ -345,4 +354,16 @@ $primary-color: #357b70;
 
 a {
   color: $primary-color;
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+  float: right;
+}
+
+.main-navigation_page-header__item {
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
 }
